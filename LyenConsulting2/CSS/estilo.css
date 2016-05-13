@@ -96,20 +96,28 @@ ul li:hover a {
 	background-color: #FFFFFF;
 	margin-top: 0px;
 }
-/* Stats Gallery */
-.stats {
-	color: #717070;
-	margin-bottom: 5px;
-}
-.gallery {
+/* seccion clientes */
+.clientes {
 	clear: both;
 	display: inline-block;
 	width: 100%;
 	background-color: #FFFFFF;
-	padding-bottom: 35px;
-	padding-top: 0px;
+	padding-bottom: 45px;
+	padding-top: 40px;
 	margin-top: -5px;
 	margin-bottom: 0px;
+}
+.clientes span {
+	margin-left:50px;
+	font-size:25px;
+	font-weight:bold;
+	color:#343C88;
+}
+.parrafo{
+	margin-left:50px;
+	font-size:20px;
+	font-weight:bold;
+	color:#A3A3A3;
 }
 .thumbnail {
 	width: 25%;
@@ -117,14 +125,18 @@ ul li:hover a {
 	float: left;
 	margin-top: 35px;
 }
-.gallery .thumbnail h4 {
+.thumbnail img {
+	width:120px;
+	height: 120px;
+}
+.clientes .thumbnail h4 {
 	margin-top: 5px;
 	margin-right: 5px;
 	margin-bottom: 5px;
 	margin-left: 5px;
 	color: #343C88;
 }
-.gallery .thumbnail p {
+.clientes .thumbnail p {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
