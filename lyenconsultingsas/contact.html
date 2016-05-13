@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lyen Consulting</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
+    <link href="CSS/estilo.css" rel="stylesheet" type="text/css">
+    	<script type="text/javascript" src="contacto.js"></script>
+</head>
+<body>
+        
+    <div id="volver">
+		<div class="ex2">
+			<a href="index.html#contact"><img alt="img0" src="http://auteam.com.mx/Resources/Dis_Corporativo/Img_Generales/icono_volver.png" /></a>
+		</div>
+	</div>
+        
+        <!-- 7. Inicio sección -->
+        <section class="footer_banner" id="contact">
+            <h2 class="hidden">Footer Banner Section </h2>
+            
+       	<div class="contact">
+			
+			<h2>CONTÁCTENOS</h2>
+
+			<form action="" class="contact-form" onsubmit="return validar(this);">				
+				<div class="message">
+				
+
+					<input type="text" name="nombre" class="form-input" placeholder="Nombre" onblur="revisar(this);"/><br />		
+					<input type="text" name="apellido" class="form-input" placeholder="Apellido" onblur="revisar(this);"/><br />	
+					<input type="text" name="cargo" class="form-input" placeholder="Cargo" onblur="revisar(this);"/><br />		
+					<input type="text" name="telefono" class="form-input" placeholder="Telefono" onblur="revisar(this);"/><br />		
+					<input type="email" name="email" class="form-input" placeholder="Email" onblur="revisar(this); revisaremail(this);"/><br />
+					<input type="text" name="empresa" class="form-input" placeholder="Empresa" onblur="revisar(this);"/><br />
+					<input type="text" name="numero" class="form-input" placeholder="Numero de empleados" onblur="revisar(this);"/><br />
+					<input type="text" name="pais" class="form-input" placeholder="País" onblur="revisar(this);"/><br />
+				
+					<textarea name="mensaje" placeholder="Mensaje" class="form-input" ></textarea>
+					 <div class="clearfix"> </div>	
+				
+					<input type="submit" class="more_btn" value="Enviar">
+					<input type="reset" class="more_btn" value="Borrar">
+				</div>		
+			</form>
+    	</div>  
+      	</section>
+        <!-- Fin sección -->
+   
+        <div class="caja-redes">
+   			<a href="https://www.linkedin.com/" target="_blank" class="icon-button linkedin"><i class="icon-linkedin"></i><span></span></a>
+   			<a href="https://es.pinterest.com/" target="_blank" class="icon-button pinterest"><i class="icon-pinterest"></i><span></span></a>
+   			<a href="https://twitter.com/" target="_blank" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
+   			<a href="https://www.facebook.com/" target="_blank" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
+   			<a href="https://plus.google.com/" target="_blank" class="icon-button google-plus"><i class="icon-google-plus"></i><span></span></a>
+		</div>
+            <!-- Fin Contenedor -->
+</body>
+</html>
