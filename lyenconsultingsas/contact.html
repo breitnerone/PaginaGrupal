@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Lyen Consulting</title>
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
+
     <link href="CSS/estilo.css" rel="stylesheet" type="text/css">
     	<script type="text/javascript" src="contacto.js"></script>
 </head>
@@ -24,21 +24,16 @@
 			<h2>CONTÁCTENOS</h2>
 
 			<form action="" class="contact-form" onsubmit="return validar(this);">				
-				<div class="message">
-				
-
-					<input type="text" name="nombre" class="form-input" placeholder="Nombre" onblur="revisar(this);"/><br />		
-					<input type="text" name="apellido" class="form-input" placeholder="Apellido" onblur="revisar(this);"/><br />	
-					<input type="text" name="cargo" class="form-input" placeholder="Cargo" onblur="revisar(this);"/><br />		
-					<input type="text" name="telefono" class="form-input" placeholder="Telefono" onblur="revisar(this);"/><br />		
-					<input type="email" name="email" class="form-input" placeholder="Email" onblur="revisar(this); revisaremail(this);"/><br />
-					<input type="text" name="empresa" class="form-input" placeholder="Empresa" onblur="revisar(this);"/><br />
-					<input type="text" name="numero" class="form-input" placeholder="Numero de empleados" onblur="revisar(this);"/><br />
-					<input type="text" name="pais" class="form-input" placeholder="País" onblur="revisar(this);"/><br />
-				
-					<textarea name="mensaje" placeholder="Mensaje" class="form-input" ></textarea>
-					 <div class="clearfix"> </div>	
-				
+				<div class="message">	
+					<input type="text" name="nombre" class="form-input" placeholder="Nombre" onblur="validar(this);"/><br />		
+					<input type="text" name="apellido" class="form-input" placeholder="Apellido" onblur="validar(this);"/><br />	
+					<input type="text" name="cargo" class="form-input" placeholder="Cargo" onblur="validar(this);"/><br />		
+					<input type="text" name="telefono" class="form-input" placeholder="Telefono" onblur="validar(this);"/><br />		
+					<input type="email" name="email" class="form-input" placeholder="Email" onblur="validar(this); validaremail(this);"/><br />
+					<input type="text" name="empresa" class="form-input" placeholder="Empresa" onblur="validar(this);"/><br />
+					<input type="text" name="numero" class="form-input" placeholder="Numero de empleados" onblur="validar(this);"/><br />
+					<input type="text" name="pais" class="form-input" placeholder="País" onblur="validar(this);"/><br />				
+					<textarea name="mensaje" placeholder="Mensaje" class="form-input" ></textarea> <div class="clearfix"> </div>					
 					<input type="submit" class="more_btn" value="Enviar">
 					<input type="reset" class="more_btn" value="Borrar">
 				</div>		
@@ -46,14 +41,14 @@
     	</div>  
       	</section>
         <!-- Fin sección -->
-   
-        <div class="caja-redes">
-   			<a href="https://www.linkedin.com/" target="_blank" class="icon-button linkedin"><i class="icon-linkedin"></i><span></span></a>
-   			<a href="https://es.pinterest.com/" target="_blank" class="icon-button pinterest"><i class="icon-pinterest"></i><span></span></a>
-   			<a href="https://twitter.com/" target="_blank" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
-   			<a href="https://www.facebook.com/" target="_blank" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
-   			<a href="https://plus.google.com/" target="_blank" class="icon-button google-plus"><i class="icon-google-plus"></i><span></span></a>
-		</div>
+   		
+	<div class="social">
+			<a href="https://www.facebook.com/" target="_blank"><img src = "http://thepanthershop.com/SiteImages/97-SchoolImages/97-top/97-facebook.png"/></a>
+			<a href="https://twitter.com/" target="_blank"><img src = "http://www.qrcode-monkey.de/gallery/twitter-small.png"/></a>
+			<a href="https://plus.google.com/" target="_blank"><img src = "https://upload.wikimedia.org/wikipedia/commons/f/fb/Google-plus-circle-icon-png.png"/></a>
+			<a href="https://es.pinterest.com/" target="_blank"><img src = "https://image.freepik.com/free-icon/pinterest-circle_318-10784.png"/></a>
+			<a href="https://www.youtube.com/" target="_blank"><img src = "https://cdn3.iconfinder.com/data/icons/social-icons-5/607/YouTube_Play.png"/></a>		
+	</div>
             <!-- Fin Contenedor -->
 </body>
 </html>
