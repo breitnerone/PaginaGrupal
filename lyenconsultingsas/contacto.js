@@ -1,18 +1,6 @@
-function validar(elemento)
-{
-    if (elemento.value=="")
-    {
-    elemento.className='error';
-    } 
-    else 
-    {
-    elemento.className='form-input';
-    }
-}
-
 function validaremail(elemento) 
 {
-    if (elemento.value!="")
+    if (elemento.value!=="")
     {
     var dato = elemento.value;
     var expresion = /^([a-zA-Z0-9_.-])+@(([a-zA-z0-9-])+.)+([a-zA-Z0-9-]{2,4})+$/;
@@ -29,55 +17,56 @@ function validaremail(elemento)
 
 function validar(form) 
 {
-  if(form.nombre.value=="") 
+  if(form.nombre.value==="") 
   {
     alert('Por favor digite su nombre');
     return false; 
   }
   
-  if(form.apellido.value=="") 
+  if(form.apellido.value==="") 
   { 
     alert('Por favor digite su apellido');
     return false; 
   }
   
-  if(form.cargo.value=="") 
+  if(form.cargo.value==="") 
   { 
     alert('Por favor digite su cargo o profesión');
     return false; 
   }
   
-  if(form.telefono.value=="") 
+  if(form.telefono.value==="") 
   { 
     alert('Por favor digite su número de teléfono');
     return false; 
   }
   
-  if(form.email.value=="") 
+  if(form.email.value==="") 
   { 
     alert('Por favor digite su dirección de correo electrónico');
     return false; 
   }
   
-  if(form.empresa.value=="") 
+  if(form.empresa.value==="") 
   { 
     alert('Por favor digite el nombre de su empresa');
     return false; 
   }
   
-  if(form.numero.value=="") 
+  if(form.numero.value==="") 
   { 
     alert('Por favor digite el número de empleados de su empresa');
     return false; 
   }
   
-  if(form.pais.value=="") 
+  if(form.pais.value==="") 
   { 
     alert('Por favor digite el pais donde se encuentra ubicado');
     return false; 
   }
   else
-	  alert('¡Su mensaje ha sido enviado de manera correcta!');
-   
+  {
+    alert('¡Su mensaje ha sido enviado de manera correcta!');
+  } 
   return true;
 }
