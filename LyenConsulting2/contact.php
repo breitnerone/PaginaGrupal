@@ -1,0 +1,55 @@
+<!doctype html>
+
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lyen Consulting</title>
+
+    <link href="CSS/estilo.css" rel="stylesheet" type="text/css">
+    	<script type="text/javascript" src="contacto.js"></script>
+</head>
+<body>    
+    <div id="volver">
+		<div class="ex2">
+			<a href="Index.php"><img alt="img0" src="http://auteam.com.mx/Resources/Dis_Corporativo/Img_Generales/icono_volver.png" /></a>
+		</div>
+	</div>
+        
+        <!-- 7. Inicio sección -->
+        <section class="footer_banner" id="contact">
+            <h2 class="hidden">Footer Banner Section </h2>
+            
+       	<div class="contact">
+			
+			<h2>CONTÁCTENOS</h2>
+
+			<form class="contact-form" method="post" action="envio.php" onsubmit="return validar(this);">				
+				<div class="message">	
+					<input type="text" name="nombre" class="form-input" placeholder="Nombre" onblur="validar(this);"/><br />		
+					<input type="text" name="apellido" class="form-input" placeholder="Apellido" onblur="validar(this);"/><br />	
+					<input type="text" name="cargo" class="form-input" placeholder="Cargo" onblur="validar(this);"/><br />		
+					<input type="text" name="telefono" class="form-input" placeholder="Telefono" onblur="validar(this);"/><br />		
+					<input type="email" name="email" class="form-input" placeholder="Email" onblur="validar(this); validaremail(this);"/><br />
+					<input type="text" name="empresa" class="form-input" placeholder="Empresa" onblur="validar(this);"/><br />
+					<input type="text" name="numero" class="form-input" placeholder="Numero de empleados" onblur="validar(this);"/><br />
+					<input type="text" name="pais" class="form-input" placeholder="País" onblur="validar(this);"/><br />				
+					<textarea name="mensaje" placeholder="Mensaje" class="form-input" ></textarea> <div class="clearfix"> </div>					
+					<input type="submit" class="more_btn" value="Enviar" name="enviar">
+					<input type="reset" class="more_btn" value="Borrar">
+				</div>		
+			</form>
+    	</div>  
+      	</section>
+        <!-- Fin sección -->
+   		
+	<div class="social">
+			<a href="https://www.facebook.com/" target="_blank"><img alt = "facebook" src = "http://thepanthershop.com/SiteImages/97-SchoolImages/97-top/97-facebook.png"/></a>
+			<a href="https://twitter.com/" target="_blank"><img alt = "twitter" src = "http://www.qrcode-monkey.de/gallery/twitter-small.png"/></a>
+			<a href="https://plus.google.com/" target="_blank"><img alt = "plus" src = "https://upload.wikimedia.org/wikipedia/commons/f/fb/Google-plus-circle-icon-png.png"/></a>
+			<a href="https://es.pinterest.com/" target="_blank"><img alt = "pinterest" src = "https://image.freepik.com/free-icon/pinterest-circle_318-10784.png"/></a>
+			<a href="https://www.youtube.com/" target="_blank"><img alt = "youtube" src = "https://cdn3.iconfinder.com/data/icons/social-icons-5/607/YouTube_Play.png"/></a>		
+	</div>
+            <!-- Fin Contenedor -->
+</body>
+</html>
